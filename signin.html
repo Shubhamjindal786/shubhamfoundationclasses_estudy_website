@@ -1,0 +1,46 @@
+
+<html>
+    <head>
+    <title>Student Details </title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="Styles/sty.css"/>
+    <script >
+        
+     function Validation()
+     {
+            
+    alert ("Thank you for Sign Up");
+    
+    window.location = "success_reg.html"; // Redirecting to other page.
+    return false;
+            
+      }
+    </script>
+    </head>
+    <body>
+
+        <header>
+            <marquee  scrolldelay="1" behavior="alternate"><h1><img src="logo.jpg" height="20%" width="7%"/>Shubham Foundation Classes<img src="logo.jpg" height="20%" width="7%"/></h1></marquee>
+        </header>
+          
+        
+    <div class="container">
+        <h1><center>Welcome to Shubham foundation Classes</center></h1>
+        <h1><center><u>Registration Page (Sign Up)</u></center></h1>
+    <div class="main">
+    <h2>Enter Student Details</h2>
+    <form id="form_id" method="post" name="myform">
+    <label>User Name :</label>
+    <input type="text" name="username" id="username"/>
+    <label>Create Password :</label>
+    <input type="password" name="password" id="password"/>
+    <label>Phone no :</label>
+    <input type="number" name="Phone" id="Phone">
+    <label>Email id :</label>
+    <input type="email" name="email" id="email">
+    <input type="button" value="Sign Up" id="submit" onclick="Validation()" />
+    </form>
+    </div>
+    </div>
+    </body>
+    </html>

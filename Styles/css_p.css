@@ -1,0 +1,14 @@
+.gg{
+    color: chartreuse;
+    font-size-adjust: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+#dd
+{
+    color: cyan;
+}
+
+body > h2{
+    color:blueviolet;
+}
